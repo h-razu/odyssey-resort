@@ -17,3 +17,5 @@
 > - HTML
 > - CSS
 > - PHP
+
+##### This is the live site link without interaction of phpMyAdmin: <a href="https://odyssey-resort.netlify.app/" target="_blank">ODYSSEY RESORT</a>
