@@ -227,6 +227,7 @@
             $qu = "UPDATE room_info SET avaiable_room='$avl_room', booked_room='$total_bk' WHERE name='$room_name[0]'";
 
             if (mysqli_query($connection1, $qu)) {
+                echo "<meta http-equiv='refresh' content='0'>";
             }
             mysqli_close($connection1);
         } else {
@@ -353,6 +354,7 @@
             $qu = "UPDATE room_info SET avaiable_room='$avl_room_2', booked_room='$total_bk_2' WHERE name='$room_name[1]'";
 
             if (mysqli_query($connection1, $qu)) {
+                echo "<meta http-equiv='refresh' content='0'>";
             }
             mysqli_close($connection1);
         } else {
